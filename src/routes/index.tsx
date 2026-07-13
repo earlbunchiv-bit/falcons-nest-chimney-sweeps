@@ -167,7 +167,7 @@ function Index() {
           <div className="relative aspect-[3/2] overflow-hidden rounded-2xl shadow-xl">
             <img
               src={aboutImage}
-              alt="A professional chimney sweep inspecting a brick chimney at golden hour"
+              alt="A professional chimney sweep cleaning a fireplace from inside the firebox"
               width={1200}
               height={800}
               className="h-full w-full object-cover"
