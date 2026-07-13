@@ -9,10 +9,10 @@ export const Route = createFileRoute("/")({
 });
 
 const contactInfo = {
-  phone: "(555) 123-4567",
+  phone: "(563) 349-8192",
   email: "hello@falconsnestchimney.com",
   address: "123 Main Street, Your Town, ST 12345",
-  hours: "Mon–Fri: 8am–6pm | Sat: 9am–2pm",
+  hours: "Mon–Fri: 9am–5pm",
 };
 
 function Index() {
