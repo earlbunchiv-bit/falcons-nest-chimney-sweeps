@@ -261,7 +261,7 @@ function Index() {
               <ContactCard
                 icon={<MapPin className="h-6 w-6" />}
                 label="Address"
-                value={contactInfo.address}
+                value={`${contactInfo.address} • Mailing: ${contactInfo.mailing}`}
               />
               <ContactCard
                 icon={<Clock className="h-6 w-6" />}
