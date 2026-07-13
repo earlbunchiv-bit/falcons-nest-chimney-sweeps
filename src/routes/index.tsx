@@ -236,13 +236,11 @@ function Index() {
                 icon={<MapPin className="h-6 w-6" />}
                 label="Address"
                 value={contactInfo.address}
-                href="#"
               />
               <ContactCard
                 icon={<Clock className="h-6 w-6" />}
                 label="Hours"
                 value={contactInfo.hours}
-                href="#"
               />
             </div>
 
