@@ -134,6 +134,30 @@ function Index() {
               description="Expert liner installation, masonry repair, and cap replacement to protect your home."
             />
           </div>
+          <div className="mx-auto mt-12 max-w-4xl rounded-2xl bg-card p-8 shadow-sm">
+            <h3 className="font-heading text-xl text-foreground">Full service list</h3>
+            <ul className="mt-4 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2 lg:grid-cols-3">
+              {[
+                "Fireplace sweeping",
+                "Level 1, 2 & 3 chimney inspections",
+                "ChimScan video inspections",
+                "Damper repair",
+                "Animal removal",
+                "Crowns & tuck pointing",
+                "Liners & waterproofing",
+                "Chimney caps & accessories",
+                "Animal guards & screening",
+                "Ventilation products",
+                "Dryer vent cleaning",
+                "Gutters cleaned",
+              ].map((s) => (
+                <li key={s} className="flex items-start gap-2">
+                  <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </section>
 
