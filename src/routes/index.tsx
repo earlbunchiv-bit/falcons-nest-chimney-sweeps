@@ -11,8 +11,10 @@ export const Route = createFileRoute("/")({
 const contactInfo = {
   phone: "(563) 349-8192",
   email: "Earl.bunch@icloud.com",
-  address: "215 n Elsie ave Davenport Iowa",
+  address: "215 N Elsie Ave, Davenport, IA",
+  mailing: "P.O. Box 1624, Davenport, IA 52809-1624",
   hours: "Mon–Fri: 9am–5pm",
+  owner: "Earl Bunch III, Owner/Operator",
 };
 
 function Index() {
@@ -71,15 +73,15 @@ function Index() {
             <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Fully insured</span>
+                <span>Bonded & Insured</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>CSIA certified</span>
+                <span>Est. 1976</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Clean & courteous</span>
+                <span>No Mess Guarantee</span>
               </div>
             </div>
           </div>
@@ -131,6 +133,30 @@ function Index() {
               title="Relining & Repairs"
               description="Expert liner installation, masonry repair, and cap replacement to protect your home."
             />
+          </div>
+          <div className="mx-auto mt-12 max-w-4xl rounded-2xl bg-card p-8 shadow-sm">
+            <h3 className="font-heading text-xl text-foreground">Full service list</h3>
+            <ul className="mt-4 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2 lg:grid-cols-3">
+              {[
+                "Fireplace sweeping",
+                "Level 1, 2 & 3 chimney inspections",
+                "ChimScan video inspections",
+                "Damper repair",
+                "Animal removal",
+                "Crowns & tuck pointing",
+                "Liners & waterproofing",
+                "Chimney caps & accessories",
+                "Animal guards & screening",
+                "Ventilation products",
+                "Dryer vent cleaning",
+                "Gutters cleaned",
+              ].map((s) => (
+                <li key={s} className="flex items-start gap-2">
+                  <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
+                  <span>{s}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </section>
@@ -235,7 +261,7 @@ function Index() {
               <ContactCard
                 icon={<MapPin className="h-6 w-6" />}
                 label="Address"
-                value={contactInfo.address}
+                value={`${contactInfo.address} • Mailing: ${contactInfo.mailing}`}
               />
               <ContactCard
                 icon={<Clock className="h-6 w-6" />}
@@ -308,8 +334,8 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="text-center md:text-left">
-              <div className="font-heading text-2xl text-foreground">Falcon's Nest Chimney Sweeps</div>
-              <p className="mt-1 text-sm text-muted-foreground">Family owned and operated since 1976.</p>
+              <div className="font-heading text-2xl text-foreground">Falcon's Nest Chimney Sweeps, Ltd.</div>
+              <p className="mt-1 text-sm text-muted-foreground">{contactInfo.owner} • Family owned since 1976 • Bonded & Insured</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium text-muted-foreground">
               <a href="#services" className="transition-colors hover:text-foreground">Services</a>
