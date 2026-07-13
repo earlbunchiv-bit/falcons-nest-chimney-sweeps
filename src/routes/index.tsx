@@ -376,14 +376,14 @@ function ContactCard({
   return (
     <a
       href={href}
-      className="group flex items-start gap-4 rounded-2xl bg-card p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+      className="group flex h-full items-start gap-4 rounded-2xl bg-card p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
     >
       <div className="flex-shrink-0 rounded-xl bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
         {icon}
       </div>
-      <div>
+      <div className="min-w-0">
         <div className="text-sm font-semibold text-muted-foreground">{label}</div>
-        <div className="mt-1 text-base font-medium text-foreground">{value}</div>
+        <div className="mt-1 text-base font-medium text-foreground break-words">{value}</div>
       </div>
     </a>
   );
