@@ -10,8 +10,8 @@ export const Route = createFileRoute("/")({
 
 const contactInfo = {
   phone: "(563) 349-8192",
-  email: "hello@falconsnestchimney.com",
-  address: "123 Main Street, Your Town, ST 12345",
+  email: "Earl.bunch@icloud.com",
+  address: "215 n Elsie ave Davenport Iowa",
   hours: "Mon–Fri: 9am–5pm",
 };
 
