@@ -73,15 +73,15 @@ function Index() {
             <div className="mt-8 flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Fully insured</span>
+                <span>Bonded & Insured</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>CSIA certified</span>
+                <span>Est. 1976</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-primary" />
-                <span>Clean & courteous</span>
+                <span>No Mess Guarantee</span>
               </div>
             </div>
           </div>
