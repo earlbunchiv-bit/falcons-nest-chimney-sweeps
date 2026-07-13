@@ -334,8 +334,8 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="text-center md:text-left">
-              <div className="font-heading text-2xl text-foreground">Falcon's Nest Chimney Sweeps</div>
-              <p className="mt-1 text-sm text-muted-foreground">Family owned and operated since 1976.</p>
+              <div className="font-heading text-2xl text-foreground">Falcon's Nest Chimney Sweeps, Ltd.</div>
+              <p className="mt-1 text-sm text-muted-foreground">{contactInfo.owner} • Family owned since 1976 • Bonded & Insured</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm font-medium text-muted-foreground">
               <a href="#services" className="transition-colors hover:text-foreground">Services</a>
