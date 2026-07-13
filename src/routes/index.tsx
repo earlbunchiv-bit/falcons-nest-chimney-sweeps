@@ -369,13 +369,12 @@ function ContactCard({
   icon: React.ReactNode;
   label: string;
   value: string;
-  href: string;
+  href?: string;
 }) {
-  return (
-    <a
-      href={href}
-      className="group flex h-full items-start gap-4 rounded-2xl bg-card p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
-    >
+  const className =
+    "group flex h-full items-start gap-4 rounded-2xl bg-card p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md";
+  const content = (
+    <>
       <div className="flex-shrink-0 rounded-xl bg-primary/10 p-3 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
         {icon}
       </div>
@@ -383,6 +382,16 @@ function ContactCard({
         <div className="text-sm font-semibold text-muted-foreground">{label}</div>
         <div className="mt-1 text-base font-medium text-foreground break-words">{value}</div>
       </div>
+    </>
+  );
+
+  if (!href) {
+    return <div className={className}>{content}</div>;
+  }
+
+  return (
+    <a href={href} className={className}>
+      {content}
     </a>
   );
 }
