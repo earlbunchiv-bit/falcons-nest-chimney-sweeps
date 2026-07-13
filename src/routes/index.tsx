@@ -11,8 +11,10 @@ export const Route = createFileRoute("/")({
 const contactInfo = {
   phone: "(563) 349-8192",
   email: "Earl.bunch@icloud.com",
-  address: "215 n Elsie ave Davenport Iowa",
+  address: "215 N Elsie Ave, Davenport, IA",
+  mailing: "P.O. Box 1624, Davenport, IA 52809-1624",
   hours: "Mon–Fri: 9am–5pm",
+  owner: "Earl Bunch III, Owner/Operator",
 };
 
 function Index() {
