@@ -176,10 +176,13 @@ function Index() {
             <span className="text-sm font-semibold uppercase tracking-wider text-primary">Our Story</span>
             <h2 className="mt-3 font-heading text-3xl text-foreground sm:text-4xl">A local family tradition since 1976</h2>
             <p className="mt-4 text-muted-foreground">
-              Falcon's Nest Chimney Sweeps began as a one-man operation with a single brush and a commitment to honest work. Nearly five decades later, we're still family-owned and still treat every home like it's our own.
+              Falcon's Nest Chimney Sweeps was founded by Earl Bunch III, who bought the business at age 24 from Tony Barnett—the original owner and Earl's next-door neighbor growing up. Earl had worked for Tony as a teenager, and he's been working on chimneys his whole life, bringing more than 30 years of professional experience to every home we serve.
             </p>
             <p className="mt-4 text-muted-foreground">
-              Our team arrives on time, works cleanly, and explains everything we find—no upsells, no surprises. When you invite us into your home, you get the same careful service that built our reputation across the community.
+              Today, Earl Bunch IV is the full-time chimney technician with over a decade of hands-on experience. For larger repair work like rebuilding chimneys, replacing caps, and repairing crowns, Josh Keever joins the team as our full-time Master Chimney Mason. With his help, we've repaired thousands of chimneys over the years.
+            </p>
+            <p className="mt-4 text-muted-foreground">
+              At Falcon's Nest, we believe in hard work, honesty, and physical health—we all take the gym seriously. Climbing roofs and putting in real labor keeps us ready to serve the QC and surrounding areas to the best of our ability.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="rounded-xl bg-card p-5 shadow-sm">
