@@ -176,7 +176,7 @@ function Index() {
             <span className="text-sm font-semibold uppercase tracking-wider text-primary">Our Story</span>
             <h2 className="mt-3 font-heading text-3xl text-foreground sm:text-4xl">A local family tradition since 1976</h2>
             <p className="mt-4 text-muted-foreground">
-              Falcon's Nest Chimney Sweeps was founded by Earl Bunch III, who bought the business at age 24 from Tony Barnett—the original owner and Earl's next-door neighbor growing up. Earl had worked for Tony as a teenager, and he's been working on chimneys his whole life, bringing more than 30 years of professional experience to every home we serve.
+              Toney Barnett was the founder of Falcon's Nest, and Earl Bunch 111 bought Falcon's Nest from him at age 24. Earl grew up next door to Toney and worked for him as a teenager. He's been working on chimneys his whole life, bringing more than 30 years of professional experience to every home we serve.
             </p>
             <p className="mt-4 text-muted-foreground">
               Today, Earl Bunch IV is the full-time chimney technician with over a decade of hands-on experience. For larger repair work like rebuilding chimneys, replacing caps, and repairing crowns, Josh Keever joins the team as our full-time Master Chimney Mason. With his help, we've repaired thousands of chimneys over the years.
