@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock, Shield, CheckCircle, Award, Home, Sparkles } from "lucide-react";
+import { Phone, Mail, Clock, Shield, CheckCircle, Award, Home, Sparkles } from "lucide-react";
 
 import heroImage from "@/assets/hero-fireplace.jpg";
 import aboutImage from "@/assets/about-chimney.jpg";
@@ -11,8 +11,6 @@ export const Route = createFileRoute("/")({
 const contactInfo = {
   phone: "(563) 349-8192",
   email: "Earl.bunch@icloud.com",
-  address: "215 N Elsie Ave, Davenport, IA",
-  mailing: "P.O. Box 1624, Davenport, IA 52809-1624",
   hours: "Mon–Fri: 9am–5pm",
   owner: "Earl Bunch III, Owner/Operator",
 };
@@ -257,11 +255,6 @@ function Index() {
                 label="Email"
                 value={contactInfo.email}
                 href={`mailto:${contactInfo.email}`}
-              />
-              <ContactCard
-                icon={<MapPin className="h-6 w-6" />}
-                label="Address"
-                value={`${contactInfo.address} • Mailing: ${contactInfo.mailing}`}
               />
               <ContactCard
                 icon={<Clock className="h-6 w-6" />}
