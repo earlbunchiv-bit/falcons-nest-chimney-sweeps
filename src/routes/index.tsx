@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, Mail, MapPin, Clock, Shield, CheckCircle, Award, Home, Sparkles } from "lucide-react";
+import { Phone, Mail, Clock, Shield, CheckCircle, Award, Home, Sparkles } from "lucide-react";
 
 import heroImage from "@/assets/hero-fireplace.jpg";
 import aboutImage from "@/assets/about-chimney.jpg";
