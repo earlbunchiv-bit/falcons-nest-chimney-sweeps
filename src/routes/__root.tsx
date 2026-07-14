@@ -80,11 +80,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Falcon's Nest Chimney Sweeps | Professional Chimney Sweep Services" },
       { name: "description", content: "Family-owned chimney sweep business serving homeowners since 1976. Professional, reliable, and friendly service. Book your sweep today." },
       { name: "author", content: "Falcon's Nest Chimney Sweeps" },
-      { property: "og:title", content: "Falcon's Nest Chimney Sweeps" },
-      { property: "og:description", content: "Family-owned chimney sweep business serving homeowners since 1976. Professional, reliable, and friendly service." },
+      { property: "og:title", content: "Falcon's Nest Chimney Sweeps | Professional Chimney Sweep Services" },
+      { property: "og:description", content: "Family-owned chimney sweep business serving homeowners since 1976. Professional, reliable, and friendly service. Book your sweep today." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@FalconsNestChimney" },
+      { name: "twitter:title", content: "Falcon's Nest Chimney Sweeps | Professional Chimney Sweep Services" },
+      { name: "twitter:description", content: "Family-owned chimney sweep business serving homeowners since 1976. Professional, reliable, and friendly service. Book your sweep today." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/24aff904-9a5a-4bda-84df-c09062970435/id-preview-720fba90--7cf89414-6ebf-4c34-afcf-c26c9c0045ca.lovable.app-1783999075801.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/24aff904-9a5a-4bda-84df-c09062970435/id-preview-720fba90--7cf89414-6ebf-4c34-afcf-c26c9c0045ca.lovable.app-1783999075801.png" },
     ],
     links: [
       {
