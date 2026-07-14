@@ -257,11 +257,6 @@ function Index() {
                 href={`mailto:${contactInfo.email}`}
               />
               <ContactCard
-                icon={<MapPin className="h-6 w-6" />}
-                label="Address"
-                value={`${contactInfo.address} • Mailing: ${contactInfo.mailing}`}
-              />
-              <ContactCard
                 icon={<Clock className="h-6 w-6" />}
                 label="Hours"
                 value={contactInfo.hours}
