@@ -176,7 +176,7 @@ function Index() {
             <span className="text-sm font-semibold uppercase tracking-wider text-primary">Our Story</span>
             <h2 className="mt-3 font-heading text-3xl text-foreground sm:text-4xl">A local family tradition since 1976</h2>
             <p className="mt-4 text-muted-foreground">
-              Tony Barnett was the founder of Falcon's Nest, and Earl Bunch III started working with him as a summer job in his teenage years. After years of experience, at 24 years old Earl Bunch III bought the business off of Tony Barnett and has owned it ever since. He's been working on chimneys his whole life, bringing more than 30 years of professional experience to every home we serve.
+              Tony Barnett was the founder of Falcon's Nest, and Earl Bunch III started working with him as a summer job in his teenage years. After years of experience, at 24 years old Earl Bunch III bought the business off of Tony Barnett and has owned it ever since. He's been working on chimneys his whole life, bringing more than 35 years of experience to every home we serve.
             </p>
             <p className="mt-4 text-muted-foreground">
               Today, Earl Bunch IV is the full-time chimney technician with over a decade of hands-on experience. For larger repair work like rebuilding chimneys, replacing caps, and repairing crowns, Josh Keever joins the team as our full-time Master Chimney Mason. With his help, we've repaired thousands of chimneys over the years.
