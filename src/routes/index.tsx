@@ -186,7 +186,7 @@ function Index() {
             </p>
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="rounded-xl bg-card p-5 shadow-sm">
-                <div className="font-heading text-3xl text-primary">48+</div>
+                <div className="font-heading text-3xl text-primary">50</div>
                 <div className="mt-1 text-sm text-muted-foreground">Years of experience</div>
               </div>
               <div className="rounded-xl bg-card p-5 shadow-sm">
