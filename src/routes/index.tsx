@@ -51,7 +51,7 @@ function Index() {
               Professional chimney sweeping you can trust.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-              Falcon's Nest Chimney Sweeps keeps your home safe, warm, and efficient with honest, reliable service from a family that's been caring for chimneys for nearly 50 years.
+              Falcon's Nest Chimney Sweeps keeps your home safe, warm, and efficient with honest, reliable service from a family that's been caring for chimneys for 50 years.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
               <a
