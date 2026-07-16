@@ -86,7 +86,7 @@ function Index() {
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src={heroImage}
+                src={heroImage.url}
                 alt="A warm, glowing fireplace with professional chimney sweep tools nearby"
                 width={1440}
                 height={912}
