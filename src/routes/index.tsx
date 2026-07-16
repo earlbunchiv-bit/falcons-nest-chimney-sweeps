@@ -135,7 +135,7 @@ function Index() {
           <div className="mx-auto mt-12 max-w-4xl rounded-2xl bg-card p-8 shadow-sm">
             <h3 className="font-heading text-xl text-foreground">Full service list</h3>
             <ul className="mt-4 grid gap-2 text-sm text-muted-foreground sm:grid-cols-2 lg:grid-cols-3">
-              {[
+            {[
                 "Fireplace sweeping",
                 "Level 1, 2 & 3 chimney inspections",
                 "ChimScan video inspections",
@@ -148,6 +148,7 @@ function Index() {
                 "Ventilation products",
                 "Dryer vent cleaning",
                 "Gutters cleaned",
+                "Firebox repair",
               ].map((s) => (
                 <li key={s} className="flex items-start gap-2">
                   <CheckCircle className="mt-0.5 h-4 w-4 flex-shrink-0 text-primary" />
