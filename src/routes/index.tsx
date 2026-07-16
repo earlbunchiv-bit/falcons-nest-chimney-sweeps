@@ -87,7 +87,7 @@ function Index() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <img
                 src={heroImage.url}
-                alt="A warm, glowing fireplace with professional chimney sweep tools nearby"
+                alt="The Falcon's Nest team celebrating 50 years of service in front of their company van"
                 width={1440}
                 height={912}
                 className="h-full w-full object-cover"
