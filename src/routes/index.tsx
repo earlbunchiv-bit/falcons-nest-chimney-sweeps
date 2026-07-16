@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Phone, Mail, Clock, Shield, CheckCircle, Award, Home, Sparkles } from "lucide-react";
 
-import heroImage from "@/assets/hero-fireplace.jpg";
+import heroImage from "@/assets/falcons-nest-50th-anniversary.jpg.asset.json";
 import aboutImage from "@/assets/about-chimney.jpg";
 
 export const Route = createFileRoute("/")({
@@ -86,8 +86,8 @@ function Index() {
           <div className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src={heroImage}
-                alt="A warm, glowing fireplace with professional chimney sweep tools nearby"
+                src={heroImage.url}
+                alt="The Falcon's Nest team celebrating 50 years of service in front of their company van"
                 width={1440}
                 height={912}
                 className="h-full w-full object-cover"
